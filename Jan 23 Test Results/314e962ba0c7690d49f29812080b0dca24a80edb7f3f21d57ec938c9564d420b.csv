@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Manage bank account","Edit a bank account","SUCCESS","2023-01-23T08:04:37.178+08:00[Asia/Shanghai]","0.0","101.08"
+"Manage bank account","Activate a bank account","SUCCESS","2023-01-23T08:07:11.459+08:00[Asia/Shanghai]","0.0","65.05"
+"Manage bank account","Manage bank account using GVAGL bank account","SUCCESS","2023-01-23T08:08:17.569+08:00[Asia/Shanghai]","0.0","230.5"
