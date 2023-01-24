@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lease creation","Create and edit pending lease","IGNORED","2023-01-24T18:18:10.006+08:00[Asia/Shanghai]","0.0","0.54"
+"Lease creation","Create and search pending lease","IGNORED","2023-01-24T18:18:10.653+08:00[Asia/Shanghai]","0.0","0.51"
+"Lease creation","Create pending lease","IGNORED","2023-01-24T18:18:11.28+08:00[Asia/Shanghai]","0.0","0.31"
