@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.19/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="908807acfcdd723917a98cadf10bc3c4ed390251eb2b3a6d588940e0968f612c.html">Redistribution</a></span>
+                > <span class="truncate-60"><a
+                    href="c2c32651f6e2b6ee7cff2fba401cb25435d2b084aa3a8bc4384fc36494862c82.html">Pre logging GL distribution prior year </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2023 17:59</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Redistribution </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Pre logging GL distribution prior year
+                                    <span class="related-issue-title">(VLG02)</span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="02496618a8209ed709494c56a2ea1197b07b5aff9356b0e26d78f829630547b4.png" title=" Given that I'm logged in to 'GL Distribution Voucher Match' page" width="1728"/>
+                <img src="02496618a8209ed709494c56a2ea1197b07b5aff9356b0e26d78f829630547b4.png" title=" When i open FAD URL" width="1728"/>
+                <img src="02496618a8209ed709494c56a2ea1197b07b5aff9356b0e26d78f829630547b4.png" title=" When i open page from sidebar menu: {Accounts Payable,Pre-Registration,GL Distribution/Voucher Match}" width="1728"/>
+                <img src="2cebb1e5016e8c71e6228f62bdeb735f325556fb113f20c1dd17c600e1de4afb.png" title=" When i open page from sidebar menu: {Accounts Payable,Pre-Registration,GL Distribution/Voucher Match}" width="1728"/>
+                <img src="c972bdc1fc9941acbf0600dd250217d67a4c359c92f5a0dcd15ad5f1387e5202.png" title=" When i open page from sidebar menu: {Accounts Payable,Pre-Registration,GL Distribution/Voucher Match}" width="1728"/>
+                <img src="584fd02afc1d78e4f646dbe071185428fd8b408176a81ee5723eb0f968fd8029.png" title=" When i open page from sidebar menu: {Accounts Payable,Pre-Registration,GL Distribution/Voucher Match}" width="1728"/>
+                <img src="34f6f85795423b6fa71b9fc23e60b7b98fbeb282a9599932db3f36617c84e974.png" title=" When i open page from sidebar menu: {Accounts Payable,Pre-Registration,GL Distribution/Voucher Match} (completed)" width="1728"/>
+                <img src="34f6f85795423b6fa71b9fc23e60b7b98fbeb282a9599932db3f36617c84e974.png" title=" Given that I'm logged in to 'GL Distribution Voucher Match' page (completed)" width="1728"/>
+                <img src="34f6f85795423b6fa71b9fc23e60b7b98fbeb282a9599932db3f36617c84e974.png" title=" Then the 'GL Distribution' page and its contents should show up" width="1728"/>
+                <img src="5f5dad2c135b2a416d3e52f5058b1dd23bef21c1e029466da1536845f00cd2ca.png" title=" When I set the 'Supplier' to 'AG Star'" width="1728"/>
+                <img src="07bbeb3a1b3771dad70bddeebaaa98e3ad87d73ef726444a4b53d93058e12ad7.png" title=" When I set the 'Supplier' to 'AG Star' (completed)" width="1728"/>
+                <img src="dbbb2bc22385ca9beeb5d31ac7f16fcd53ac187cf481c9021458fc84822c9575.png" title=" When I click on 'Search' button" width="1728"/>
+                <img src="6e474603481a9122fa708747f4dfba91686796862c70ec18042739b167cc8000.png" title=" When I click on 'Search' button (completed)" width="1728"/>
+                <img src="0156ce354a6011dbf9bb50055285e3796658277184952034d44989bf632a828f.png" title=" When I click the 'GL Distribution' button from the first search result" width="1728"/>
+                <img src="8d2a0e91bbeff862fd37572f0b1a5d00fa0636608bbbd9aa1b533227535c5784.png" title=" When I click the 'GL Distribution' button from the first search result (completed)" width="1728"/>
+                <img src="f4065dd656113184155b0d95b423bc65306ac56eadb2bbe1ac3a45e1e4060672.png" title=" Then the 'GL Distribution' form should show up" width="1728"/>
+                <img src="cc8cdb0d35f71e686481a87be8168b5df00b4d4e8be98541f837361845a3e9d2.png" title=" When I click 'Add Line' button" width="1728"/>
+                <img src="cc8cdb0d35f71e686481a87be8168b5df00b4d4e8be98541f837361845a3e9d2.png" title=" When I click 'Add Line' button (completed)" width="1728"/>
+                <img src="868e447986177ff71496ba1cc141a2919a889d7b45ae4438e2c318b03ca401bf.png" title=" When I fill up 'GL Distribution' table form Account Number: '937000', Line Description: 'TEST GL Distribution Current Month', Cost Center: 'BAM5000', AOE: 'KAB', Line Ref: 'TEST'" width="1728"/>
+                <img src="868e447986177ff71496ba1cc141a2919a889d7b45ae4438e2c318b03ca401bf.png" title=" When I click the last 'GL Distribution' table row" width="1728"/>
+                <img src="868e447986177ff71496ba1cc141a2919a889d7b45ae4438e2c318b03ca401bf.png" title=" When I click the last 'GL Distribution' table row (completed)" width="1728"/>
+                <img src="868e447986177ff71496ba1cc141a2919a889d7b45ae4438e2c318b03ca401bf.png" title=" When I set the 'Account Number' to '937000'" width="1728"/>
+                <img src="7272d138f2c31f894a93aa718a1c7e5834986d43e852f812d6d474fcb795051e.png" title=" When I set the 'Account Number' to '937000'" width="1728"/>
+                <img src="61e9d22fb79b1bb98a9d62fb430b2848941a6583b96f20e094d8d3b9fb7bf530.png" title=" When I set the 'Account Number' to '937000' (completed)" width="1728"/>
+                <img src="61e9d22fb79b1bb98a9d62fb430b2848941a6583b96f20e094d8d3b9fb7bf530.png" title=" When I set the 'Line Description' to 'TEST GL Distribution Current Month'" width="1728"/>
+                <img src="0b6dc62765028dc7830f84b2ad8e1f619229b2f521e4837f961986eeef81d64a.png" title=" When I set the 'Line Description' to 'TEST GL Distribution Current Month' (completed)" width="1728"/>
+                <img src="0b6dc62765028dc7830f84b2ad8e1f619229b2f521e4837f961986eeef81d64a.png" title=" When I set the 'Amount' to '862.07'" width="1728"/>
+                <img src="8634df67d8af0d38cd34a38705efa3cedb0450143370b789967018f9ab3ac4ed.png" title=" When I set the 'Amount' to '862.07' (completed)" width="1728"/>
+                <img src="8634df67d8af0d38cd34a38705efa3cedb0450143370b789967018f9ab3ac4ed.png" title=" When I set the 'Cost Center' to 'BAM5000'" width="1728"/>
+                <img src="32b24893fd884e7faadff510d988e7de7c0a150c03d3ab80304654b4de05cf73.png" title=" When I set the 'Cost Center' to 'BAM5000'" width="1728"/>
+                <img src="9e1cf6a90a0d0667daa8416bdefa50de88347f796e912755a36eacefb4279548.png" title=" When I set the 'Cost Center' to 'BAM5000' (completed)" width="1728"/>
+                <img src="9e1cf6a90a0d0667daa8416bdefa50de88347f796e912755a36eacefb4279548.png" title=" When I click on 'Show Next' button" width="1728"/>
+                <img src="accfaaccdf138aac87810541994e984264de376d6cfc52f875b6db9d7e033d7f.png" title=" When I click on 'Show Next' button" width="1728"/>
+                <img src="accfaaccdf138aac87810541994e984264de376d6cfc52f875b6db9d7e033d7f.png" title=" When I click on 'Show Next' button (completed)" width="1728"/>
+                <img src="accfaaccdf138aac87810541994e984264de376d6cfc52f875b6db9d7e033d7f.png" title=" When I set the 'AOE' to 'KAB'" width="1728"/>
+                <img src="77034ae25bdb5cffcfd62f94929251a876156cdb386687e299896695125776bc.png" title=" When I set the 'AOE' to 'KAB'" width="1728"/>
+                <img src="3f70737e0f9c8cd7839593a2346215d420d5f016b8467ac55290996876bad7a3.png" title=" When I set the 'AOE' to 'KAB' (completed)" width="1728"/>
+                <img src="3f70737e0f9c8cd7839593a2346215d420d5f016b8467ac55290996876bad7a3.png" title=" When I set the 'AOE' to 'TEST'" width="1728"/>
+                <img src="a768f537b3aac97253d96afdf301825cd554f123ebac0dc023ecb7848e2faffd.png" title=" When I set the 'AOE' to 'TEST' (completed)" width="1728"/>
+                <img src="a768f537b3aac97253d96afdf301825cd554f123ebac0dc023ecb7848e2faffd.png" title=" When I fill up 'GL Distribution' table form Account Number: '937000', Line Description: 'TEST GL Distribution Current Month', Cost Center: 'BAM5000', AOE: 'KAB', Line Ref: 'TEST' (completed)" width="1728"/>
+                <img src="232a5903833fe01e7d066367e93988a4f3d54a14db42b1e6449b8a60d3e341ee.png" title=" When I click on 'Save' button" width="1728"/>
+                <img src="3a0c3b530ed3efdcab8babb5d4d0519a15d20a78729b8feea597e476e788da86.png" title=" When I click on 'Save' button (completed)" width="1728"/>
+                <img src="b820147fa547473a319e6b5ce3b11646f8e6228da2b742e071403f94a1e11864.png" title=" Then the 'GL Distribution Successful Created' modal should show up" width="1728"/>
+                <img src="d2e2b16100d526066b028ed556b86ba77a5a4d7e405d0723722ec025a9f04bc3.png" title=" When i click on modal review button" width="1728"/>
+                <img src="e70fb8424f9d94861e68db73c3d6c06a9aaabd84d3a52bd264455dca935f70ab.png" title=" When i click on modal review button (completed)" width="1728"/>
+                <img src="e9931d9adf3174bb10fe8cd11c4b0fc5265735818f5574fc556a15ad6616aec1.png" title=" When I click on 'Show Posted Batches' checkbox" width="1728"/>
+                <img src="e9931d9adf3174bb10fe8cd11c4b0fc5265735818f5574fc556a15ad6616aec1.png" title=" When I click on 'Show Posted Batches' checkbox (completed)" width="1728"/>
+                <img src="ce9a6940d3c357dcfd82bde1e8a86697d21605ba44caf7c69f35cb1b9f910df8.png" title=" When I click on 'Search' button" width="1728"/>
+                <img src="77f716ea47503b18a2bbe38bf319171c5143932160aa1be4134e4e479b9c2d52.png" title=" When I click on 'Search' button (completed)" width="1728"/>
+                <img src="77f716ea47503b18a2bbe38bf319171c5143932160aa1be4134e4e479b9c2d52.png" title=" Then the 'Voucher Entry Review' page and its contents should show up" width="1728"/>
+                <img src="b28ec90f36f26453627722e665c53d216d1eaf80962f202ac2bec53cc9f41b5a.png" title=" When I select the first voucher entry" width="1728"/>
+                <img src="b28ec90f36f26453627722e665c53d216d1eaf80962f202ac2bec53cc9f41b5a.png" title=" When I select the first voucher entry (completed)" width="1728"/>
+                <img src="409315ba5d843f7130744bcf514abe2a13c63b316f33e8e45742165f83306a02.png" title=" When I click on 'View Entries' button" width="1728"/>
+                <img src="12a4c94a1269372915d1f4a4e9721e4daca9de9df05793b0e98485aafc0d9ee3.png" title=" When I click on 'View Entries' button (completed)" width="1728"/>
+                <img src="7fed69f61eccbdb8e152eee869fd09455c79906185784bb3a26d54682a436409.png" title=" Then the 'Voucher Entry' modal should show up" width="1728"/>
+                <img src="617e14a5f984232d56de75d87e7dec39b82c7ff60289bd6743c5f2bfec25c720.png" title=" When I click on modal 'Close' button" width="1728"/>
+                <img src="617e14a5f984232d56de75d87e7dec39b82c7ff60289bd6743c5f2bfec25c720.png" title=" When I click on modal 'Close' button (completed): <span class='success-color'>SUCCESS</span>" width="1728"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.1.6</span>
+</div>
+</body>
+</html>

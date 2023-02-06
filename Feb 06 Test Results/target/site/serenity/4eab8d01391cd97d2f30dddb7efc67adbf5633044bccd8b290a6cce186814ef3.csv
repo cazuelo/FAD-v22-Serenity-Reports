@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Supplier creation","View a supplier","SUCCESS","2023-02-06T18:58:39.861+08:00[Asia/Shanghai]","0.0","71.39"
+"Supplier creation","Edit a supplier","SUCCESS","2023-02-06T18:59:52.468+08:00[Asia/Shanghai]","0.0","118.48"
+"Supplier creation","Payment terms update","SUCCESS","2023-02-06T19:01:52.277+08:00[Asia/Shanghai]","0.0","126.36"
+"Supplier creation","Supplier and supplier master creation","SUCCESS","2023-02-06T19:05:56.489+08:00[Asia/Shanghai]","0.0","97.11"
