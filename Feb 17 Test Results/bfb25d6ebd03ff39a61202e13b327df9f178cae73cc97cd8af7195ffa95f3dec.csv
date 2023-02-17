@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pre registration","Pre logging multi docs","ERROR","2023-02-17T13:43:36.318+08:00[Asia/Shanghai]","0.0","171.07"
+"Pre registration","Pre logging with tax rate rounded","ERROR","2023-02-17T13:48:48.137+08:00[Asia/Shanghai]","0.0","161.32"
+"Pre registration","Pre logging simple","ERROR","2023-02-17T13:51:30.237+08:00[Asia/Shanghai]","0.0","174.97"
+"Pre registration","Pre logging with tax rate","ERROR","2023-02-17T13:54:25.962+08:00[Asia/Shanghai]","0.0","171.13"

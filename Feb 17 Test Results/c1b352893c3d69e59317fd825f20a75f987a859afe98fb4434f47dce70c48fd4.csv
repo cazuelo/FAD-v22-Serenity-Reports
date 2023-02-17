@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Payments","Create voucher entry and manual payment","IGNORED","2023-02-17T13:06:42.775+08:00[Asia/Shanghai]","0.0","0.55"
+"Supplier creation","Supplier creation","IGNORED","2023-02-17T14:55:54.669+08:00[Asia/Shanghai]","0.0","0.46"
+"Supplier creation","Manage bank account","IGNORED","2023-02-17T14:59:15.368+08:00[Asia/Shanghai]","0.0","0.39"
+"Voucher entries","Prepayment","IGNORED","2023-02-17T15:39:34.506+08:00[Asia/Shanghai]","0.0","0.38"
+"Lease creation","Create and edit pending lease","IGNORED","2023-02-17T17:03:25.535+08:00[Asia/Shanghai]","0.0","0.49"
+"Lease creation","Create and search pending lease","IGNORED","2023-02-17T17:03:26.124+08:00[Asia/Shanghai]","0.0","0.31"
+"Lease creation","Create pending lease","IGNORED","2023-02-17T17:03:26.546+08:00[Asia/Shanghai]","0.0","0.28"
