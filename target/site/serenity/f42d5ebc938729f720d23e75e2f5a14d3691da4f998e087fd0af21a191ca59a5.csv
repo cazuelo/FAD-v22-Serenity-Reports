@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Review AP entries","Create manual payment and delete unposted payment","ERROR","2023-02-21T14:39:51.085+08:00[Asia/Shanghai]","0.0","254.73"
+"Review AP entries","Reversal of unposted voucher match","ERROR","2023-02-21T14:59:07.286+08:00[Asia/Shanghai]","0.0","122.52"

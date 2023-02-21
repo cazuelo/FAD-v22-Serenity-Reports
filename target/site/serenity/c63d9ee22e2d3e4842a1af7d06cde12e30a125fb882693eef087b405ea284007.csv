@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Payments","Create voucher entry and manual payment","IGNORED","2023-02-21T13:34:28.747+08:00[Asia/Shanghai]","0.0","0.46"
+"Supplier creation","Supplier creation","IGNORED","2023-02-21T15:24:37.34+08:00[Asia/Shanghai]","0.0","0.58"
+"Supplier creation","Manage bank account","IGNORED","2023-02-21T15:26:41.983+08:00[Asia/Shanghai]","0.0","0.47"
+"Voucher entries","Prepayment","IGNORED","2023-02-21T15:59:47.426+08:00[Asia/Shanghai]","0.0","0.49"
