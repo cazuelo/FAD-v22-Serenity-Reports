@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Account recon","Refresh accounts","SUCCESS","2023-01-24T17:57:47.353+08:00[Asia/Shanghai]","0.0","114.64"
-"Batch posting","Batch posting voiding process","SUCCESS","2023-01-24T18:00:36.295+08:00[Asia/Shanghai]","0.0","152.87"
-"General ledger entries","Create general ledger entry","SUCCESS","2023-01-24T18:07:29.761+08:00[Asia/Shanghai]","0.0","129.37"
-"Internal transfer","Create internal transfer entry","SUCCESS","2023-01-24T18:12:38.946+08:00[Asia/Shanghai]","0.0","85.52"
-"Monthly statistical entries","Create monthly statistical entry","SUCCESS","2023-01-24T18:14:05.588+08:00[Asia/Shanghai]","0.0","60.3"
-"Salary advance","Create salary advance entry","SUCCESS","2023-01-24T18:15:06.994+08:00[Asia/Shanghai]","0.0","87.62"
-"Working advance","Create working advance entry","SUCCESS","2023-01-24T18:16:35.749+08:00[Asia/Shanghai]","0.0","93.15"

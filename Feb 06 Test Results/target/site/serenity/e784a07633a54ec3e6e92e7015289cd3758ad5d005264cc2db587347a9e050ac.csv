@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Payments","Manual payment with multiple documents","ERROR","2023-02-06T17:08:25.875+08:00[Asia/Shanghai]","0.0","281.8"
-"Payments","Application of prepayment full","FAILURE","2023-02-06T17:13:08.649+08:00[Asia/Shanghai]","0.0","484.46"
-"Payments","Manual payment with zero payments","ERROR","2023-02-06T17:26:23.637+08:00[Asia/Shanghai]","0.0","265.13"
-"Payments","Manual payment full","ERROR","2023-02-06T17:30:49.642+08:00[Asia/Shanghai]","0.0","130.57"
-"Payments","Application of prepayment partial","FAILURE","2023-02-06T17:33:01.074+08:00[Asia/Shanghai]","0.0","508.9"

@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Voucher entries","Checking line reference place holder","SUCCESS","2023-02-17T15:25:26.821+08:00[Asia/Shanghai]","0.0","303.64"
-"Voucher entries","Voucher entry delete a line","SUCCESS","2023-02-17T15:31:57.242+08:00[Asia/Shanghai]","0.0","222.67"
-"Voucher entries","Voucher entry multi docs","SUCCESS","2023-02-17T15:44:33.74+08:00[Asia/Shanghai]","0.0","414.87"
-"Voucher entries","Simple prepayment","SUCCESS","2023-02-17T15:52:48.007+08:00[Asia/Shanghai]","0.0","111.0"
-"Voucher entries","Voucher entry with tax rate rounded","SUCCESS","2023-02-17T16:18:28.125+08:00[Asia/Shanghai]","0.0","226.79"
-"Voucher entries","Release retention adding a line","SUCCESS","2023-02-17T16:29:18.286+08:00[Asia/Shanghai]","0.0","266.96"
-"Voucher entries","Voucher entry credit memo","SUCCESS","2023-02-17T16:34:57.388+08:00[Asia/Shanghai]","0.0","174.24"

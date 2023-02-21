@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Annual statistical budget","Create annual statistical entry","FAILURE","2023-01-24T17:59:43.147+08:00[Asia/Shanghai]","0.0","52.06"
-"Batch posting","Batch posting general ledger entry","ERROR","2023-01-24T18:03:10.049+08:00[Asia/Shanghai]","0.0","181.27"
-"General ledger entries","Create general ledger entry using sustainability accounts","FAILURE","2023-01-24T18:06:13.483+08:00[Asia/Shanghai]","0.0","75.44"
-"Inquiry and reports","Order inquiry and update","ERROR","2023-01-24T18:09:41.524+08:00[Asia/Shanghai]","0.0","176.17"

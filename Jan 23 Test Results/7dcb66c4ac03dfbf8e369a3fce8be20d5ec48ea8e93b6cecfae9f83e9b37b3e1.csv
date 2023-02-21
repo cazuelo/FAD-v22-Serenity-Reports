@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Payments","Manual payment with multiple documents","ERROR","2023-01-23T08:16:43.396+08:00[Asia/Shanghai]","0.0","261.51"
-"Payments","Manual payment with zero payments","ERROR","2023-01-23T08:33:34.646+08:00[Asia/Shanghai]","0.0","324.16"

@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Review AP entries","Edit voucher entries delete a line","ERROR","2023-01-23T09:10:02.171+08:00[Asia/Shanghai]","0.0","434.71"
-"Review AP entries","Create voucher entry and edit","ERROR","2023-01-23T09:26:54.846+08:00[Asia/Shanghai]","0.0","75.25"
-"Review AP entries","Review voucher AP entries","ERROR","2023-01-23T09:31:00.129+08:00[Asia/Shanghai]","0.0","153.16"
-"Review AP entries","Reversal of unposted voucher match","ERROR","2023-01-23T09:34:10.221+08:00[Asia/Shanghai]","0.0","121.73"
-"Review AP entries","Edit voucher entry line account number","ERROR","2023-01-23T09:41:37.655+08:00[Asia/Shanghai]","0.0","150.51"

@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Payments","Manual payment partial","SUCCESS","2023-01-23T08:12:13.095+08:00[Asia/Shanghai]","0.0","269.5"
-"Payments","Manual payment with negative amount","SUCCESS","2023-01-23T08:28:32.441+08:00[Asia/Shanghai]","0.0","301.38"
-"Payments","Manual payment full","SUCCESS","2023-01-23T08:38:59.574+08:00[Asia/Shanghai]","0.0","247.5"
