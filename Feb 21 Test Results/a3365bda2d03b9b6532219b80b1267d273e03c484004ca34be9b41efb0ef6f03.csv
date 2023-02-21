@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pre registration","Pre logging multi docs","SUCCESS","2023-02-21T14:16:58.426+08:00[Asia/Shanghai]","0.0","226.74"
+"Pre registration","Pre logging","SUCCESS","2023-02-21T14:20:45.979+08:00[Asia/Shanghai]","0.0","115.36"
+"Pre registration","Pre logging with tax rate rounded","SUCCESS","2023-02-21T14:22:42.158+08:00[Asia/Shanghai]","0.0","128.15"
+"Pre registration","Pre logging simple","SUCCESS","2023-02-21T14:24:51.096+08:00[Asia/Shanghai]","0.0","81.85"
+"Pre registration","Pre logging with tax rate","SUCCESS","2023-02-21T14:26:13.735+08:00[Asia/Shanghai]","0.0","118.09"
